@@ -10,7 +10,7 @@ import uuid
 # ВАЖНО: Это наименее безопасный способ хранения ключа.
 # Используйте ТОЛЬКО для быстрого локального тестирования.
 # НИКОГДА не коммитьте свой API-ключ в публичные репозитории!
-API_KEY_DIRECT = "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"
+API_KEY_DIRECT = "you_api_here"
 
 # Общая цветовая схема для более строгого стиля Matrass.ai
 BG_COLOR = "#1e1e1e" # Темно-серый фон
@@ -496,4 +496,5 @@ class ChatFrame(tk.Frame):
 # --- Запуск приложения ---
 if __name__ == "__main__":
     app = MatrassChatApp()
+
     app.mainloop()
